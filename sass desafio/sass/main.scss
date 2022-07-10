@@ -9,6 +9,8 @@
 }
 
 /*variable color*/
+
+
     $colorTitulos:rgb(128, 28, 28);
     $colorGeneral:#8a0b0b;
 
@@ -20,7 +22,7 @@
         height: 75px;
         width: 100%;
         
-        h1 {
+        h2 {
             font-family: 'Parisienne', cursive;
             font-size: 15px;
             color: aliceblue;
@@ -79,42 +81,6 @@
         height: 50px;
     
     }
-    /*maps*/
-    $mini-menu: (
-        Stock: red,
-        Expor: blue,
-        Servc: blueviolet,
-        p-1:grey,
-        p-2: violet,
-        p-3:yellow,
-);
-@each $nombre, $valor in $mini-menu {
-    .submenu-#{$nombre} {
-        color:$valor;
-    }
-    
-}
-/*exten*/
-.btn--aceptar{
-    @extend.btn--danger;
-    color: #fff;
-
-}
-/*mixin*/
-@mixin btn {
-    display: inline-block;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 20px;
-    text-decoration: none;
-    font-family: sans-serif;
-}
-
-.btn--danger {
-    @include btn;
-    background:#8a0b0b;
-}
-
 
     .servicios {
         width: 100%;
@@ -166,6 +132,7 @@
                 }
                 }
             }
+        
         /*media del index,menu,footer*/
         @media (max-width: 900px){
             .historia h3{
