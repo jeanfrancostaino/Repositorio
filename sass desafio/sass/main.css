@@ -73,6 +73,47 @@
   height: 50px;
 }
 
+/*maps*/
+.submenu-Stock {
+  color: red;
+}
+
+.submenu-Expor {
+  color: blue;
+}
+
+.submenu-Servc {
+  color: blueviolet;
+}
+
+.submenu-p-1 {
+  color: grey;
+}
+
+.submenu-p-2 {
+  color: violet;
+}
+
+.submenu-p-3 {
+  color: yellow;
+}
+
+/*exten*/
+.btn--aceptar {
+  color: #fff;
+}
+
+/*mixin*/
+.btn--danger, .btn--aceptar {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  background: #8a0b0b;
+}
+
 .servicios {
   width: 100%;
 }
