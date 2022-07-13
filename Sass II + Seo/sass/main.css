@@ -16,7 +16,7 @@
   height: 75px;
   width: 100%;
 }
-.menu_navegacion h2 {
+.menu_navegacion h1 {
   font-family: "Parisienne", cursive;
   font-size: 15px;
   color: aliceblue;
@@ -63,13 +63,13 @@
   display: none;
 }
 
-.enlace {
+.enlace-menu {
   position: absolute;
   padding: 5px 50px;
   margin-left: -40px;
 }
 
-.logo {
+.logo-menu {
   height: 50px;
 }
 
@@ -153,112 +153,4 @@
   color: rgb(128, 28, 28);
   text-align: center;
   margin-top: 50px;
-}
-
-/*media del index,menu,footer*/
-@media (max-width: 900px) {
-  .historia h3 {
-    margin-top: 400px;
-  }
-
-  .historia p {
-    margin-top: 2000px;
-  }
-
-  .img_stock {
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-row-gap: 3px;
-  }
-}
-@media (min-width: 901px) {
-  .img_stock {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 5px;
-  }
-}
-@media (min-width: 901px) {
-  .img_stock {
-    grid-template-columns: 25% 25% 25%;
-    -moz-column-gap: 10px;
-         column-gap: 10px;
-  }
-}
-@media (max-width: 952px) {
-  .enlace {
-    margin-top: 10px;
-  }
-
-  .menu_contenedor .menu_navegacion h2 {
-    position: absolute;
-    font-size: 15px;
-    margin-top: 25px;
-  }
-
-  .menu_navegacion {
-    height: 90px;
-  }
-
-  .menu_navegacion ul li a {
-    font-size: 16px;
-  }
-
-  .menu_navegacion ul li {
-    display: inline-block;
-    line-height: 70px;
-    margin: 0 5px;
-  }
-
-  .pie-pagina {
-    margin-top: 600px;
-  }
-}
-@media (max-width: 858px) {
-  .checkbtn {
-    display: block;
-  }
-
-  ul {
-    position: fixed;
-    margin-top: -10px;
-    width: 100%;
-    height: 100vh;
-    background: #2c3e50;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all 0.5s;
-    z-index: 99;
-  }
-
-  .menu_navegacion ul li {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-
-  .menu_navegacion ul li a {
-    font-size: 20px;
-  }
-
-  li a:hover, li a.active {
-    background: none;
-  }
-
-  #check:checked ~ ul {
-    left: 0;
-  }
-
-  .pie-pagina {
-    margin-top: 1950px;
-  }
-}
-.contenedor_f {
-  margin-top: -1450px;
-}
-
-.contenedor_l {
-  margin-top: -1650px;
 }/*# sourceMappingURL=main.css.map */
